@@ -50,27 +50,24 @@
 </head>
 <body>
 
-  <h2>Latihan jQuery Basic</h2>
+  <h2>Latihan jQuery Annura RIzkya CHantika</h2>
 
-  <div id="box">Kotak</div>
+  <div id="box">Halo!</div>
 
-  <button id="hideBtn">Sembunyikan</button>
-  <button id="showBtn">Tampilkan</button>
-  <button id="chainBtn">Efek Chaining</button>
+  <button id="hideBtn">Hide</button>
+  <button id="showBtn">Show</button>
+  <button id="chainBtn">Chaining Effect</button>
 
   <script>
     $(document).ready(function(){
-      // Sembunyikan
       $("#hideBtn").click(function(){
         $("#box").hide();
       });
 
-      // Tampilkan
       $("#showBtn").click(function(){
         $("#box").show();
       });
 
-      // Chaining basic
       $("#chainBtn").click(function(){
         $("#box")
           .css("background-color", "#ff922b")
